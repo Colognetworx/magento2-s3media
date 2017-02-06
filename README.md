@@ -1,0 +1,1 @@
+# magento2-s3media
