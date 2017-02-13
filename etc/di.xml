@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\MediaStorage\Model\Config\Source\Storage\Media\Storage">
+        <plugin name="cnx-s3media-media-storage-config-plugin" type="Cnx\S3Media\Plugin\Model\Config\Source\Storage\Media\Storage" sortOrder="10" disabled="false"/>
+    </type>
+</config>
+
